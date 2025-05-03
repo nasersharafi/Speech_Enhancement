@@ -19,6 +19,7 @@ This section provides the implementation and simulation codes for the proposed s
 2. Essential Folders for Proper Code Execution
 To ensure proper execution in MATLAB, please add the following folders to your MATLAB path before running any file. Use the path:
 Home > Set Path > Add with Subfolders
+Important: Before adding the HRP_main folder to the MATLAB path, make sure to first extract it from its compressed (rar) format.
 	AUX_FUNCTION: Contains auxiliary functions such as Voice Activity Detection (VAD), signal reconstruction, and other required utilities.
 	HPR_main: Includes implementations of sparse representation algorithms such as Lasso.
 	Speech-measure-SDR-SAR-STOI-PESQ-master: Contains signal quality evaluation metrics like PESQ, STOI, SDR, and SAR.
@@ -26,7 +27,7 @@ Home > Set Path > Add with Subfolders
 
 
 
-3. Structure and Execution Order of Main Files
+4. Structure and Execution Order of Main Files
 After ensuring that all folders are correctly added to the MATLAB path, the following files should be executed in order to run the algorithm step-by-step:
 	Predefined noise files and dictionaries:
 
